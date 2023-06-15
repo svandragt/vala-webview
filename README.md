@@ -4,6 +4,10 @@ This repo presents a basic approach to building a GTK native app that incorporat
 
 While launching the web app URL in a browser tab is simpler, it doesn't align with the goal of providing a dedicated native app experience. Some browsers, like Gnome Web, offer the option to install websites as applications, but this requires user interaction and may not be as convenient.
 
+## Build it yourself
+
+You might need to install `sudo apt-get install libwebkit2gtk-4.0-dev` or equivalent if you're building this from source.
+
 ```shell
 # Bootstrap
 meson build --prefix=/usr && cd build
