@@ -1,9 +1,8 @@
-This is a minimal example of how to build a GTK native app containing just a webview.
+# Creating a GTK Native App with Webview
 
-The goal here is to bundle this with a web app served locally into something that behaves like a native app.
+This repo presents a basic approach to building a GTK native app that incorporates a webview component. The objective is to combine a locally served web app with the native app functionality for a seamless user experience.
 
-I don't like locally served apps to be just another browser tab, so rules out just launching the URL, even though that's simpler.
-Also some browser like Gnome Web allow the user to install the website into the applications, however this requires user interaction so is not as convenient.
+While launching the web app URL in a browser tab is simpler, it doesn't align with the goal of providing a dedicated native app experience. Some browsers, like Gnome Web, offer the option to install websites as applications, but this requires user interaction and may not be as convenient.
 
 ```shell
 # Bootstrap
